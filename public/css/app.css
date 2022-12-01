@@ -1,0 +1,45 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    padding-top: 70px;
+}
+
+.cemiBlue{background-color: #4e99b7;}
+.cemiTextBlue{color: #4e99b7;}
+.img{
+    max-width: 100%;
+    width: 90px;
+    height: 9vh;
+}
+.f_f{
+    font-family:'Nunito', sans-serif;
+    font-weight: 800;
+    color: #e7e7e7;
+    margin: auto 5px;
+}
+.carouselSection{
+    height: 2vh;
+}
+
+.nunito{
+    font-family: 'Nunito', sans-serif;
+}
+.bannerImg{
+    background: url('../img/unidade/unidade.jpg') no-repeat;
+    background-size: cover;
+}
+.cardImgSection{
+    border-radius: 50px 0 0 50px;
+}
+
+.heroSection, .espSection{
+    visibility: hidden;
+}
+.dropShadow{
+    filter: drop-shadow(2px 2px 6px #4e99b7);
+}
+.especialist_section{
+    background: url('../img/especialistas /especialistas.png') no-repeat;
+    background-size: cover;
+
+    border:solid 4px  #fff
+}
