@@ -13,18 +13,14 @@
         <link rel="stylesheet" href="{{ url('./css/icons/all.min.css') }}">
         <link rel="shortcut icon" href="{{  url('favicon.ico') }}" type="image/x-icon">
         <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-      
     </head>
     <body class="headline">
         <script src="{{ url('./js/app.js') }}"></script>
         <script> ScrollReveal({ reset: true }); </script>
         @include('layouts/navbar')
-        @yield('content')
-
-        @include('layouts/footer')
-
-        <!-- Scripts -->    
-        
+                @yield('content')
+                @include('layouts/footer')
+            <!-- Scripts -->    
         <script src="{{ url('./js/icons/all.min.js') }}"></script>
         <script src="{{ url('./js/scrollreveal/scrollreveal.js') }}"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

@@ -3,103 +3,76 @@
 
 @section('content')
 <!-- Hero -->    
-<div class="container-fluid">
-  <img src="{{  url('./img/') }}" alt="">
-</div>
 
-      <div class="container-fluid p-4">
-
-        <div class="shadow-lg rounded-4 p-4 mb-5">
-          <h1 class="fw-bolder">Seja bem vindo à Clínica CEMI!</h1>
+      <div class="p-0">
+        <div class="" style=" height: 50vh;">
+          <img class="img-fluid m-0" src="{{ url('../img/banner.jpg') }}" alt="" srcset="">
         </div>
+        <div class="container-fluid">
+          <div class="row my-5 py-5 d-flex justify-content-center align-items-center">
+            
+                      <div class="card border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
+                        <div class="p-2"><img src="{{ url('./img/especialidades/family.png') }}" class="rounded-circle i " alt=""  height="80" ></div>
+                        <div class="card-body">
+                          <a href="" style="text-decoration: none;" class="text-dark"   data-bs-toggle="modal" data-bs-target="#MedicinaFamiliar">
+                          <h5 class=" card-title fw-bold">Medicina Familiar</h5></a>
+                        </div>
+                      </div>
+                    
+                      <div class="card border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
+                        <div class="p-2"><img src="{{ url('./img/especialidades/health.png') }}" class="   "alt=""  height="80"></div>
+                        <div class="card-body">
+                          <a href="" style="text-decoration: none;" class="text-dark"   data-bs-toggle="modal" data-bs-target="#Nutricao">
+                          <h5 class=" card-title fw-bold">Nutrição</h5></a>
+                        </div>
+                      </div>
 
+                      <div class="card border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
+                        <div class="p-2"><img src="{{ url('./img/especialidades/pediatrics.png') }}" class="   "alt=""  height="80"></div>
+                        <div class="card-body">
+                          <a href="" style="text-decoration: none;" class="text-dark"   data-bs-toggle="modal" data-bs-target="#Pediatria">
+                          <h5 class=" card-title fw-bold">Pediatria</h5></a>
+                        </div>
+                      </div>
 
-        <div class="row g-0  shadow rounded-4 my-4  heroSection">
-            <div class="col-md-8 p-3">
-                <h5 class="fw-bold border-bottom  fs-2">Clínica <span class="cemiTextBlue">Cemi</span></h5>
-                <p class=" my-4 text-muted">A Clínica Cemi é uma estrutura hospitalar que se apresenta no mercado angolano com o desígnio de alterar o paradigma da prestação de cuidados de saúde de uma forma muito consistente. A nossa política de qualidade assenta em 3 pilares fundamentais: <i class="fw-bold">Inovação, Eficiência e Competência. </i></p>
-                <a href="{{ route('cemi') }}" class=" btn btn-outline-primary hvr-wobble-vertical shadow rounded-2 text-white cemiBlue " style="--bs-btn-color: #4e99b7; --bs-btn-border-color: #4e99b7; --bs-btn-hover-bg: #4e99b7; --bs-btn-hover-border-color: #4e99b7;"> Ver mais</a>
-            </div>
-        
-            <div class="col-md-4 bannerImg">
+                      <div class="card border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
+                        <div class="p-2"><img src="{{ url('./img/especialidades/coronavirus.png') }}" class="   "alt=""  height="80"></div>
+                        <div class="card-body">
+                          <a href="" style="text-decoration: none;" class="text-dark"   data-bs-toggle="modal" data-bs-target="#Infexiologia">
+                          <h5 class=" card-title fw-bold">Infexiologia</h5></a>
+                        </div>
+                      </div>
+                      <div class="card border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
+                        <div class="p-2"><img src="{{ url('./img/especialidades/heart.png') }}" class=" d "alt="" height="80" ></div>
+                        <div class="card-body">
+                          <a href="" style="text-decoration: none;" class="text-dark"   data-bs-toggle="modal" data-bs-target="#Cardiologia">
+                          <h5 class=" card-title fw-bold">Cardiologia</h5></a>
+                        </div>
+                      </div>
+                        <div class="card border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
+                          <div class="p-2"><img src="{{ url('./img/especialidades/body-scan.png') }}" class=" d "alt="" height="80" ></div>
+                        <div class="card-body">
+                          <a href="" style="text-decoration: none;" class="text-dark"   data-bs-toggle="modal" data-bs-target="#MedicinaInterna">
+                          <h5 class=" card-title fw-bold">Medicina Interna</h5></a>
+                        </div>
+                      </div>
 
-            </div>
-        </div>
-
-        <div class="my-5 py-5 rounded-3 ">
-            <div class="row  px-3 d-flex justify-content-center  ">
-              <div class="col-md-4 leftSubHero">
-                <h1 class="fw-bolder">As nossas Especialidades</h1>
-                <p class="text-muted fs-5 my-5">A <span class="cemiTextBlue">CEMI</span> - Clínica Médica da Linha responde às necessidades globais de saúde dos seus utentes disponibilizando consultas em mais de 8 especialidades médicas, bem como outras áreas clínicas.</p>
-                <div class="d-flex justify-content-left my-4">
-                  <a href="{{ route('especialidades') }}" class=" btn btn-outline-primary hvr-wobble-vertical shadow rounded-2 cemiBlue text-white" style="--bs-btn-color: #4e99b7; --bs-btn-border-color: #4e99b7; --bs-btn-hover-bg: #4e99b7; --bs-btn-hover-border-color: #4e99b7;"> Ver Todas</a>
-                </div> 
+                      <div class="d-flex justify-content-center align-items-center mt-4 ">
+                        <a href="{{ route('especialidades') }}"  class="btn btn-outline-primary hvr-wobble-vertical shadow rounded-circle text-white cemiBlue" style="--bs-btn-color: #4e99b7; --bs-btn-border-color: #4e99b7; --bs-btn-hover-bg: #4e99b7; --bs-btn-hover-border-color: #4e99b7;"><i class="fa-solid fa-arrow-right" style="font-size: 2rem"></i></a>
+                      </div>
               </div>
-
-              <div class="col-md-8 rightSubHero g-5" style="margin: 0">
-                <div class="row my-3">
-                  <div class="col-md-4 text-center hvr-float mb-5 shadow rounded-2">
-                    <div class="card border-0  hvr-overline-from-center m-3" > 
-                      <div class="p-2"><img src="{{ url('./img/especialidades/family.png') }}" class="rounded-circle i " alt=""  height="80" ></div>
-                      <div class="card-body">
-                        <h5 class=" card-title fw-bold">Medicina Familiar</h5>
-                      </div>
-                    </div>
+              <div class="container-fluid">
+                <div class="row d-flex justify-content-center aligns-items-center g-4">
+                  <div class="col-md-6" style="border: dashed 1px black">
+                    <h1>Text on the left</h1>
                   </div>
-
-                  <div class="col-md-4 text-center hvr-float mb-5 shadow rounded-2">
-                    <div class="card border-0 rounded-2 hvr-overline-from-center m-3 " > 
-                      <div class="p-2"><img src="{{ url('./img/especialidades/health.png') }}" class="   "alt=""  height="80"></div>
-                      <div class="card-body">
-                        <h5 class=" card-title fw-bold">Nutrição</h5>
-                      </div>
-
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 text-center hvr-float mb-5  shadow rounded-2 hvr-overline-from-center">
-                    <div class="card border-0 rounded-2  m-3 " > 
-                      <div class="p-2"><img src="{{ url('./img/especialidades/pediatrics.png') }}" class="   "alt=""  height="80"></div>
-                      <div class="card-body">
-                        <h5 class=" card-title fw-bold">Pediatria</h5>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 text-center hvr-float mb-5 shadow rounded-2 hvr-overline-from-center">
-                    <div class="card border-0 rounded-2  m-3 " > 
-                      <div class="p-2"><img src="{{ url('./img/especialidades/coronavirus.png') }}" class="   "alt=""  height="80"></div>
-                      <div class="card-body">
-                        <h5 class=" card-title fw-bold">Infexiologia</h5>
-                      </div>
-
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 text-center hvr-float mb-5 shadow rounded-2 hvr-overline-from-center">
-                    <div class="card border-0 rounded-2 m-3 " > 
-                      <div class="p-2"><img src="{{ url('./img/especialidades/heart.png') }}" class=" d "alt="" height="80" ></div>
-                      <div class="card-body">
-                        <h5 class=" card-title fw-bold">Cardiologia</h5>
-                      </div>
-
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 text-center hvr-float mb-5 shadow rounded-2 hvr-overline-from-center">
-                    <div class="card border-0 rounded-2  m-3 " > 
-                      <div class="p-2"><img src="{{ url('./img/especialidades/body-scan.png') }}" class=" d "alt="" height="80" ></div>
-                      <div class="card-body">
-                        <h5 class=" card-title fw-bold">Medicina Interna</h5>
-                      </div>
-
-                    </div>
+                  <div class="col-md-6"  style="border: dashed 1px blue">
+                    <h1 class="fs-2">Images on the left</h1> <!---informações do meio--->
                   </div>
                 </div>
               </div>
-            </div>
-        </div>
-    </div>
+          </div>
+      </div>
 
     <div class=" p-5 mt-3 espSection bg-dark  text-white ">
        <div class="">
@@ -120,9 +93,7 @@
                   @endforeach
                </div>
               </div>
-
               <div class="col-md-4 especialist_section rounded-2 rightSubHero"></div>
-            
             </div>
         </div>
         <div class="d-flex justify-content-start mt-5 foo ">
@@ -130,5 +101,102 @@
         </div>
        </div>
     </div>
+
+    <!-- Modal dos especialistas -->
+      <div class="modal fade" id="MedicinaFamiliar" tabindex="-1" aria-labelledby="MedicinaFamiliarLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 fw-bolder" id="MedicinaFamiliarLabel">Medicina Familiar</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">Short introduction about...</div>
+            <div class="modal-footer">
+              <button type="button" class="btn " data-bs-dismiss="modal" style="background: whitesmoke; --bs-btn-hover-bg: #ccc; ">Fechar</button>
+              <a href="" class="btn btn-outline-primary hvr-wobble-vertical shadow  text-white cemiBlue" style="--bs-btn-color: #4e99b7; --bs-btn-border-color: #4e99b7; --bs-btn-hover-bg: #4e99b7; --bs-btn-hover-border-color: #4e99b7;">Marcar Consulta</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="Nutricao" tabindex="-1" aria-labelledby="NutricaoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 fw-bolder" id="NutricaoLabel">Nutrição</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">Short introduction about...</div>
+            <div class="modal-footer">
+              <button type="button" class="btn " data-bs-dismiss="modal" style="background: whitesmoke; --bs-btn-hover-bg: #ccc; ">Fechar</button>
+              <a href="" class="btn btn-outline-primary hvr-wobble-vertical shadow  text-white cemiBlue" style="--bs-btn-color: #4e99b7; --bs-btn-border-color: #4e99b7; --bs-btn-hover-bg: #4e99b7; --bs-btn-hover-border-color: #4e99b7;">Marcar Consulta</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="Pediatria" tabindex="-1" aria-labelledby="PediatriaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 fw-bolder" id="PediatriaLabel">Pediatria</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">Short introduction about...</div>
+            <div class="modal-footer">
+              <button type="button" class="btn " data-bs-dismiss="modal" style="background: whitesmoke; --bs-btn-hover-bg: #ccc; ">Fechar</button>
+              <a href="" class="btn btn-outline-primary hvr-wobble-vertical shadow  text-white cemiBlue" style="--bs-btn-color: #4e99b7; --bs-btn-border-color: #4e99b7; --bs-btn-hover-bg: #4e99b7; --bs-btn-hover-border-color: #4e99b7;">Marcar Consulta</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="Cardiologia" tabindex="-1" aria-labelledby="CardiologiaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 fw-bolder" id="CardiologiaLabel">Cardiologia</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">Short introduction about...</div>
+            <div class="modal-footer">
+              <button type="button" class="btn " data-bs-dismiss="modal" style="background: whitesmoke; --bs-btn-hover-bg: #ccc; ">Fechar</button>
+              <a href="" class="btn btn-outline-primary hvr-wobble-vertical shadow  text-white cemiBlue" style="--bs-btn-color: #4e99b7; --bs-btn-border-color: #4e99b7; --bs-btn-hover-bg: #4e99b7; --bs-btn-hover-border-color: #4e99b7;">Marcar Consulta</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="Infexiologia" tabindex="-1" aria-labelledby="InfexciologiaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 fw-bolder" id="InfexciologiaLabel">Infexciologia</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">Short introduction about...</div>
+            <div class="modal-footer">
+              <button type="button" class="btn " data-bs-dismiss="modal" style="background: whitesmoke; --bs-btn-hover-bg: #ccc; ">Fechar</button>
+              <a href="" class="btn btn-outline-primary hvr-wobble-vertical shadow  text-white cemiBlue" style="--bs-btn-color: #4e99b7; --bs-btn-border-color: #4e99b7; --bs-btn-hover-bg: #4e99b7; --bs-btn-hover-border-color: #4e99b7;">Marcar Consulta</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="MedicinaInterna" tabindex="-1" aria-labelledby="MedicinaInternaLAbel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 fw-bolder" id="MedicinaInternaLAbel">Medicina Interna</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">Short introduction about...</div>
+            <div class="modal-footer">
+              <button type="button" class="btn " data-bs-dismiss="modal" style="background: whitesmoke; --bs-btn-hover-bg: #ccc; ">Fechar</button>
+              <a href="" class="btn btn-outline-primary hvr-wobble-vertical shadow  text-white cemiBlue" style="--bs-btn-color: #4e99b7; --bs-btn-border-color: #4e99b7; --bs-btn-hover-bg: #4e99b7; --bs-btn-hover-border-color: #4e99b7;">Marcar Consulta</a>
+            </div>
+          </div>
+        </div>
+      </div>
 @endsection
 
