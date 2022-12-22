@@ -38,7 +38,7 @@ body{
     filter: drop-shadow(2px 2px 6px #4e99b7);
 }
 .especialist_section{
-    background: url('../img/especialistas /especialistas.png') no-repeat;
+    background: url('../img/especialistas/especialistas.jpg') no-repeat;
     background-size: cover;
 
     border:solid 4px  #fff
