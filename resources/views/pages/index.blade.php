@@ -11,7 +11,7 @@
         <div class="container-fluid">
           <div class="row my-5 py-5 d-flex justify-content-center align-items-center">
             
-                      <div class="card border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
+                      <div class="card heroSection border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
                         <div class="p-2"><img src="{{ url('./img/especialidades/family.png') }}" class="rounded-circle i " alt=""  height="80" ></div>
                         <div class="card-body">
                           <a href="" style="text-decoration: none;" class="text-dark"   data-bs-toggle="modal" data-bs-target="#MedicinaFamiliar">
@@ -19,7 +19,7 @@
                         </div>
                       </div>
                     
-                      <div class="card border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
+                      <div class="card heroSection border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
                         <div class="p-2"><img src="{{ url('./img/especialidades/health.png') }}" class="   "alt=""  height="80"></div>
                         <div class="card-body">
                           <a href="" style="text-decoration: none;" class="text-dark"   data-bs-toggle="modal" data-bs-target="#Nutricao">
@@ -27,7 +27,7 @@
                         </div>
                       </div>
 
-                      <div class="card border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
+                      <div class="card heroSection border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
                         <div class="p-2"><img src="{{ url('./img/especialidades/pediatrics.png') }}" class="   "alt=""  height="80"></div>
                         <div class="card-body">
                           <a href="" style="text-decoration: none;" class="text-dark"   data-bs-toggle="modal" data-bs-target="#Pediatria">
@@ -35,39 +35,44 @@
                         </div>
                       </div>
 
-                      <div class="card border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
+                      <div class="card heroSection border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
                         <div class="p-2"><img src="{{ url('./img/especialidades/coronavirus.png') }}" class="   "alt=""  height="80"></div>
                         <div class="card-body">
                           <a href="" style="text-decoration: none;" class="text-dark"   data-bs-toggle="modal" data-bs-target="#Infexiologia">
                           <h5 class=" card-title fw-bold">Infexiologia</h5></a>
                         </div>
                       </div>
-                      <div class="card border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
+                      <div class="card heroSection border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
                         <div class="p-2"><img src="{{ url('./img/especialidades/heart.png') }}" class=" d "alt="" height="80" ></div>
                         <div class="card-body">
                           <a href="" style="text-decoration: none;" class="text-dark"   data-bs-toggle="modal" data-bs-target="#Cardiologia">
                           <h5 class=" card-title fw-bold">Cardiologia</h5></a>
                         </div>
                       </div>
-                        <div class="card border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
-                          <div class="p-2"><img src="{{ url('./img/especialidades/body-scan.png') }}" class=" d "alt="" height="80" ></div>
+                        <div class="card heroSection border-0 m-2  col-sm-6 col-md-3 text-center hvr-float  shadow rounded-2 bg-white hvr-overline-from-center" > 
+                          <div class="p-2"><img src="{{ url('./img/especialidades/body-scan.png') }}" class=" d "alt="cemi_bunner" height="80" ></div>
                         <div class="card-body">
                           <a href="" style="text-decoration: none;" class="text-dark"   data-bs-toggle="modal" data-bs-target="#MedicinaInterna">
                           <h5 class=" card-title fw-bold">Medicina Interna</h5></a>
                         </div>
                       </div>
-
                       <div class="d-flex justify-content-center align-items-center mt-4 ">
                         <a href="{{ route('especialidades') }}"  class="btn btn-outline-primary hvr-wobble-vertical shadow rounded-circle text-white cemiBlue" style="--bs-btn-color: #4e99b7; --bs-btn-border-color: #4e99b7; --bs-btn-hover-bg: #4e99b7; --bs-btn-hover-border-color: #4e99b7;"><i class="fa-solid fa-arrow-right" style="font-size: 2rem"></i></a>
                       </div>
               </div>
-              <div class="container-fluid">
+              <div class="container-fluid mb-5">
                 <div class="row d-flex justify-content-center aligns-items-center g-4">
-                  <div class="col-md-6" style="border: dashed 1px black">
-                    <h1>Text on the left</h1>
+                  <div class="col-md-8">
+                    <h1 class="fw-bolder"  style="margin-left: 5%">Quem somos</h1>
+                    <h1 class="fs-4 leftSubHero text-muted" style="margin-left: 5%">A <span  class="cemiTextBlue"> CEMI </span> é um espaço que intenciona promover alta qualidade no atendimento ao paciente,
+                      assumindo-se desde logo como unidade de cuidados de saúde ambulatórios.</h1>
+
+                      <h1 class="fs-4 leftSubHero text-muted " style="margin-left: 5%">A clínica é composta de várias especialidades, que propõe um conceito de saúde, através de ações preventivas, desenvolvendo um trabalho sério de qualidade de vida matendo a satisfação e confiança do paciente</h1>
                   </div>
-                  <div class="col-md-6"  style="border: dashed 1px blue">
-                    <h1 class="fs-2">Images on the left</h1> <!---informações do meio--->
+                  <div class="col-md-4" >
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="{{ url('../img/third.png') }}" class="img-fluid shadow-lg rounded-2 rightSubHero" alt="ConsultorioCemi" height="50">
+                    </div>
                   </div>
                 </div>
               </div>
@@ -199,4 +204,3 @@
         </div>
       </div>
 @endsection
-
