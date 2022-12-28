@@ -187,7 +187,6 @@
           </div>
         </div>
       </div>
-
       <div class="modal fade" id="MedicinaInterna" tabindex="-1" aria-labelledby="MedicinaInternaLAbel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
