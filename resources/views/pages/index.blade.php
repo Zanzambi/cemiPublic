@@ -195,6 +195,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">Short introduction about...</div>
+            
             <div class="modal-footer">
               <button type="button" class="btn " data-bs-dismiss="modal" style="background: whitesmoke; --bs-btn-hover-bg: #ccc; ">Fechar</button>
               <a href="" class="btn btn-outline-primary hvr-wobble-vertical shadow  text-white cemiBlue" style="--bs-btn-color: #4e99b7; --bs-btn-border-color: #4e99b7; --bs-btn-hover-bg: #4e99b7; --bs-btn-hover-border-color: #4e99b7;">Marcar Consulta
